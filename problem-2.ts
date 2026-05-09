@@ -1,11 +1,11 @@
-function reverse(text: string): string {
-    let reverse1 = '';
+function reverseString(text: string): string {
+    let reversed = '';
 
     for (let i = text.length - 1; i >= 0; i--) {
-        reverse1= reverse1 + text[i];
+        reversed= reversed + text[i];
     }
 
-    return reverse1;
+    return reversed;
 }
 
-reverse("typescript");
+reverseString("typescript");
